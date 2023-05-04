@@ -57,7 +57,6 @@ const Cart = () => {
             Grand Total :{" "}
             {cart.reduce((acc, cur) => acc + cur.price * cur.amount, 0)}
           </h3>
-          ) : (
           <p style={{ fontWeight: "bold" }}>Empty Cart</p>
         </div>
 
