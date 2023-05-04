@@ -31,14 +31,10 @@ const Item = () => {
     <>
       {itemData.map((e) => {
         return (
-          <div
+          <div className="card"
             key={e.id}
-            style={{
-              marginTop: "50px",
-              paddingBottom: "50px",
-              borderBottom: "1px solid"
-            }}
           >
+            <img src={e.picture} alt="" />
             <h3>{e.name}</h3>
             <p>{e.price}</p>
             <button onClick={addToCart.bind(this, e)}>Add to cart</button>
