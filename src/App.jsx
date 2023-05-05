@@ -1,8 +1,8 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Navbar from "./Navbar";
-import Item from "./Item";
-import Cart from "./Cart";
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './Navbar';
+import Item from './Item';
+import Cart from './Cart';
 
 const App = () => {
   return (
